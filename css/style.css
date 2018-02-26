@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+html {
+	height: 100%;
+	background-color: #3399CC;
+}
+html, body {
+	min-height: 100%;
+}
+body {
+	margin: 0;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	color: #fff;
+	border: 20px solid #2B81AC;
+}
+header {
+	display: inline-block;
+	padding: 40px 250px;
+	margin: 0 40px -60px;
+}
+footer {
+	display: inline-block;
+	padding: 40px 250px;
+	margin: -60px 40px 0;
+}
+.vk-container {
+	display: inline-block;
+	padding: 20px 250px;
+}
+.vk-forecast {
+	display: inline-block;
+	font-size: 0;
+}
+li {
+	display: inline-block;
+	font-size: 20px;
+	width: 100%;
+}
+.wi, span {
+	color: #A2C7DF;
+	font-size: 1em;
+}
+.wi-sunrise {
+	color: #fff;
+}
+.vk-ln {
+	background: #3399CC;
+	text-align: center;
+	width: 50%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-ps {
+	background: #33CCCC;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-be {
+	background: #996699;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-mw {
+	background: #C24747;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-tv {
+	background: #E2674A;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-cr {
+	background: #FFCC66;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-nk {
+	background: #99CC99;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-ni {
+	background: #669999;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+	}
+.vk-so {
+	background: #CC6699;
+	text-align: center;
+	width: 50%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-to {
+	background: #339966;
+	text-align: center;
+	width: 25%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 15px;
+}
+.vk-sy {
+	background: #666699;
+	text-align: center;
+	width: 100%;
+	border: 0.2em solid #fff;
+	border-collapse: collapse;
+	padding: 20px 20px;
+}
+ul:hover li {
+  opacity:0.5;
+}
+ul:hover li:hover {
+  opacity:1;
+}
